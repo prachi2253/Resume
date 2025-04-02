@@ -10,33 +10,33 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to a string that 
  * represents what you see in that image.
  *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
+ * Need an image? Check out https://unsplash.com to download an image you
+ * can freely use on your site.
  */
 import image from "../images/motion-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Abstract tech-themed background";
 
 /**
- * Sort description that expands on your title on the Home component.
+ * Short description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a BTech student specializing in software development, passionate about building scalable and user-friendly applications. I have experience in full-stack development and a strong foundation in UI/UX design.";
 
 /**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
+ * List of some of the skills or technologies you work on, are learning,
+ * passionate about, or enjoy.
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "React.js & JavaScript",
+  "Node.js & Express.js",
+  "PostgreSQL & MySQL",
+  "UI/UX Design",
+  "Bootstrap & Responsive Design",
+  "API Development & Integration",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I love solving real-world problems with code and designing intuitive user experiences. My goal is to build impactful applications that are both efficient and accessible to users worldwide.";
 
 const About = () => {
   return (
