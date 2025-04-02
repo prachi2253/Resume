@@ -3,22 +3,22 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/prachi2253/Resume.git",
+  "homepage": "https://prachi2253.github.io/Resume/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://prachi2253.github.io/Resume.git'",
+    "build-gh": "parcel build --public-url '.'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/prachi2253/Resume.git"
   },
-  "author": "Microsoft",
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/prachi2253/Resume/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
